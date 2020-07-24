@@ -1,7 +1,6 @@
-.row {
+.container {
   text-align: center;
 }
-
 .one {
   background-image: url("../assets/backgrounds/h_img.jpg");
   height: 100%;
@@ -10,7 +9,6 @@
   background-size: cover;
   color: white;
 }
-
 .three {
   background-image: url("../assets/backgrounds/s_image.jpg");
   height: 50%;
@@ -19,7 +17,6 @@
   background-size: cover;
   color: white;
 }
-
 .five {
   background-image: url("../assets/backgrounds/c_image.jpg");
   height: 50%;
@@ -27,4 +24,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+}
+.footer {
+  /* position: fixed;
+  left: 0;
+  bottom: 0; */
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
 }
