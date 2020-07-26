@@ -1,35 +1,117 @@
 .container {
   text-align: center;
 }
+
 .one {
   background-image: url("../assets/backgrounds/h_img.jpg");
-  height: 100%;
-  background-position: center;
+  background-position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   color: white;
+  height: 850px;
 }
+
+.oneh1 {
+  margin-top: 4.5%;
+}
+
+.oneh2 {
+  margin-top: 2%;
+}
+
+.logo {
+  padding-top: 15rem;
+}
+
+.mouse_click {
+  margin-top: 11%;
+}
+
+.two {
+  height: 250px;
+}
+
 .three {
   background-image: url("../assets/backgrounds/s_image.jpg");
-  height: 50%;
-  background-position: center;
+  background-position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   color: white;
+  height: 450px;
 }
+
+.services-h1 {
+  padding-top: 8%;
+}
+
+.four1-img {
+  margin: 0px 150px;
+}
+
+.portfolio-h1 {
+  margin-top: 4%;
+}
+
+.portfolio-img {
+  height: 150px;
+  width: 190px;
+  margin: 10px;
+  margin-top: 0px;
+}
+
 .five {
   background-image: url("../assets/backgrounds/c_image.jpg");
-  height: 50%;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   color: white;
 }
+
+.contact-h1 {
+  padding-top: 3%;
+}
+
+input {
+  background-color: transparent;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+
+.contact-input {
+  width: 500px;
+}
+.contact-input2 {
+  width: 1000px;
+  height: 250px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
 .footer {
-  /* position: fixed;
-  left: 0;
-  bottom: 0; */
   width: 100%;
   padding-top: 10px;
   text-align: center;
+}
+
+.footer-img {
+  margin: 10px;
+  margin-top: 20px;
 }
