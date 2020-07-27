@@ -116,7 +116,7 @@ figure.portfolio-fig>.hoverable {
   padding-top: 3%;
 }
 
-input {
+input, .contact-input2 {
   background-color: transparent;
   padding: 12px 20px;
   margin: 8px 0;
@@ -130,7 +130,6 @@ input {
 
 .contact-input2 {
   width: 1000px;
-  height: 250px;
 }
 
 ::placeholder {
