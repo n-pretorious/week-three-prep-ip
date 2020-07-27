@@ -43,11 +43,13 @@
 .services-h1 {
   padding-top: 8%;
 }
+
 .four2 {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: center;
 }
+
 .four2-fig {
   margin: 0px 150px;
 }
@@ -60,11 +62,45 @@ figcaption {
   margin-top: 4%;
 }
 
+.portfolio-row1, .portfolio-row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portfolio-row2 {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
 .portfolio-img {
   height: 150px;
   width: 190px;
-  margin: 10px;
-  margin-top: 0px;
+}
+
+.portfolio-row1:hover img, .portfolio-row1:active img, .portfolio-row2:hover img, .portfolio-row2:active img {
+  opacity: 1;
+}
+
+.portfolio-row1:hover img:hover, .portfolio-row1:active img:active, .portfolio-row2:hover img:hover, .portfolio-row2:active img:active {
+  opacity: 0.1;
+}
+
+.portfolio-row1 figure img, .portfolio-row2 figure img {
+  -webkit-transition: opacity 0.26s ease-out;
+  -moz-transition: opacity 0.26s ease-out;
+  -ms-transition: opacity 0.26s ease-out;
+  -o-transition: opacity 0.26s ease-out;
+  transition: opacity 0.26s ease-out;
+}
+
+figure.portfolio-fig>.hoverable {
+  display: none;
+  border: 2px inset rgb(19, 47, 207);
+  border-radius: 30%;
+  margin: 0px 10px;
+  margin-top: -6em;
+  background-color: rgb(255, 255, 255);
 }
 
 .five {
@@ -91,6 +127,7 @@ input {
 .contact-input {
   width: 500px;
 }
+
 .contact-input2 {
   width: 1000px;
   height: 250px;
