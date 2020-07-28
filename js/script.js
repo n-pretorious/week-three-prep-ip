@@ -21,11 +21,17 @@ $(document).ready(function () {
   })
 
   // hover function for portfolio area
-  $("figure.portfolio-fig").mouseover(function () {
+  $("figure.portfolio-fig").hover(function () {
     $(this).find(".hoverable").show();
   });
 
   $("figure.portfolio-fig").mouseout(function () {
     $(this).find(".hoverable").hide();
+  });
+
+  // alert user
+  $("#submit-btn").click(function(){
+    var name = $("#form-control-name").val();
+    alert("** " + name + " we have received your message. Thank you fro reaching out to us. **");
   });
 });
