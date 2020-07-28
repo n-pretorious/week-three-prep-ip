@@ -32,6 +32,6 @@ $(document).ready(function () {
   // alert user
   $("#submit-btn").click(function(){
     var name = $("#form-control-name").val();
-    alert("** " + name + " we have received your message. Thank you fro reaching out to us. **");
+    alert("** " + name + " we have received your message. Thank you for reaching out to us. **");
   });
 });
