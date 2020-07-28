@@ -30,7 +30,7 @@ $(document).ready(function () {
   });
 
   // alert user
-  $("#submit-btn").click(function(){
+  $("#contact-form").submit(function(event){
     var name = $("#form-control-name").val();
     alert("** " + name + " we have received your message. Thank you for reaching out to us. **");
   });

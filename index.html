@@ -114,17 +114,16 @@
         <div class="row five">
             <h1 class="contact-h1">CONTACT US</h1>
             <div class="form">
-                <form>
+                <form id="contact-form">
                     <div class="row">
-                        <input type="text" name="" id="form-control-name" placeholder="Name..." class="contact-input">
-                        <input type="email" name="" id="form-control-email" placeholder="Email..."
-                            class="contact-input">
+                        <input type="text" name="" id="form-control-name" placeholder="Name..." class="contact-input" required>
+                        <input type="email" name="" id="form-control-email" placeholder="Email..." class="contact-input" required>
                     </div>
                     <div class="row">
                         <textarea name="" id="form-control" class="contact-input2" cols="30" rows="10"
-                            placeholder="Your message here..."></textarea>
+                            placeholder="Your message here..." required></textarea>
                     </div>
-                    <button type="submit" id="submit-btn">Submit</button>
+                    <input type="submit" id="submit-btn" value="Submit">
                 </form>
             </div>
         </div>
